@@ -8,6 +8,7 @@ const CurrencyPicker = ({ setCurrency }: { setCurrency: any }) => {
       >
         <option value="$">$</option>
         <option value="₱">₱</option>
+        <option value="AED">AED</option>
       </select>
     </>
   );

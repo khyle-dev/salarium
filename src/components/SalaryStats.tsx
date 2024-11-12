@@ -47,7 +47,7 @@ const SalaryStats = ({ title, salary, currency }: Props) => {
               return (
                 currency +
                 (salary / (30.44 * 86400)).toLocaleString(undefined, {
-                  maximumFractionDigits: 2,
+                  maximumFractionDigits: 3,
                 })
               );
             default:
